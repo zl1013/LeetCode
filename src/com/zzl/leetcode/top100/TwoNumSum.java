@@ -29,7 +29,7 @@ public class TwoNumSum {
         int[] twoSum = twoNumSum.twoSum(nums, i);
         System.out.println("["+twoSum[0]+","+twoSum[1]+"]");
         int[] twoSum2 = twoNumSum.twoSum2(nums, i);
-        System.out.println("["+twoSum[0]+","+twoSum[1]+"]");
+        System.out.println("["+twoSum2[0]+","+twoSum2[1]+"]");
     }
 
     public int[] twoSum(int[] nums, int target) {
